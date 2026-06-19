@@ -692,6 +692,61 @@
   .tag-ok { background: #0a1e14; color: #4acc8a; border: 1px solid #1a3528; }
   .tag-warn { background: #1a150a; color: #BAA017; border: 1px solid #2a250a; }
 
+  /* TABLA DE ESPECIES */
+  .species-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  .species-table th {
+    color: #3a6a50;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid #1a3528;
+    white-space: nowrap;
+  }
+  .species-table td {
+    padding: 10px;
+    border-bottom: 1px solid #0f2418;
+    color: #9adfba;
+    vertical-align: top;
+  }
+  .species-table tr:last-child td { border-bottom: none; }
+  .species-table tr:hover td { background: #0f2418; }
+  .species-common {
+    color: #4a8a6e;
+    font-size: 11px;
+    display: block;
+    margin-top: 2px;
+  }
+  .species-sci {
+    color: #c8e8d8;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .ph-pill {
+    display: inline-block;
+    background: #0a1a2e;
+    color: #6aaad0;
+    border: 1px solid #143850;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+  }
+  .consumo-pill {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-size: 11px;
+  }
+  .consumo-muybajo { background: #0a1e14; color: #4acc8a; border: 1px solid #1a3528; }
+  .consumo-bajo { background: #1a150a; color: #BAA017; border: 1px solid #2a250a; }
+  .consumo-medio { background: #1a0a0a; color: #d08a8a; border: 1px solid #2a1010; }
+
   /* CONFIGURACION */
   .config-section { margin-bottom: 20px; }
   .config-title {
@@ -1006,34 +1061,64 @@
       <div class="panel">
         <div class="panel-title"><i class="ti ti-leaf"></i> Especies dispersadas</div>
         <div class="species-row">
-          <div class="species-icon">🌿</div>
-          <div class="species-name">Atriplex nummularia</div>
-          <div class="species-count">312k</div>
-          <div class="species-pct">37%</div>
-        </div>
-        <div class="species-row">
-          <div class="species-icon">🌾</div>
-          <div class="species-name">Festuca orthophylla</div>
-          <div class="species-count">254k</div>
-          <div class="species-pct">30%</div>
-        </div>
-        <div class="species-row">
-          <div class="species-icon">🌱</div>
-          <div class="species-name">Baccharis glomeruliflora</div>
+          <div class="species-icon">🌳</div>
+          <div class="species-name">Prosopis tamarugo</div>
           <div class="species-count">169k</div>
           <div class="species-pct">20%</div>
         </div>
         <div class="species-row">
-          <div class="species-icon">🪴</div>
-          <div class="species-name">Tamarix ramosissima</div>
-          <div class="species-count">84k</div>
+          <div class="species-icon">🌿</div>
+          <div class="species-name">Atriplex nummularia</div>
+          <div class="species-count">144k</div>
+          <div class="species-pct">17%</div>
+        </div>
+        <div class="species-row">
+          <div class="species-icon">🌳</div>
+          <div class="species-name">Prosopis chilensis</div>
+          <div class="species-count">102k</div>
+          <div class="species-pct">12%</div>
+        </div>
+        <div class="species-row">
+          <div class="species-icon">🌲</div>
+          <div class="species-name">Geoffroea decorticans</div>
+          <div class="species-count">85k</div>
           <div class="species-pct">10%</div>
         </div>
+        <div class="species-row">
+          <div class="species-icon">🌱</div>
+          <div class="species-name">Acacia saligna</div>
+          <div class="species-count">76k</div>
+          <div class="species-pct">9%</div>
+        </div>
+        <div class="species-row">
+          <div class="species-icon">🌳</div>
+          <div class="species-name">Schinus molle</div>
+          <div class="species-count">68k</div>
+          <div class="species-pct">8%</div>
+        </div>
+        <div class="species-row">
+          <div class="species-icon">🌲</div>
+          <div class="species-name">Casuarina equisetifolia</div>
+          <div class="species-count">59k</div>
+          <div class="species-pct">7%</div>
+        </div>
+        <div class="species-row">
+          <div class="species-icon">🌾</div>
+          <div class="species-name">Eucalyptus camaldulensis</div>
+          <div class="species-count">42k</div>
+          <div class="species-pct">5%</div>
+        </div>
+        <div class="species-row">
+          <div class="species-icon">🌿</div>
+          <div class="species-name">Tessaria absinthioides</div>
+          <div class="species-count">68k</div>
+          <div class="species-pct">8%</div>
+        </div>
         <div class="species-row" style="border-bottom:none">
-          <div class="species-icon">🌵</div>
-          <div class="species-name">Chuquiraga ericoides</div>
-          <div class="species-count">28k</div>
-          <div class="species-pct">3%</div>
+          <div class="species-icon">🌱</div>
+          <div class="species-name">Baccharis linearis</div>
+          <div class="species-count">34k</div>
+          <div class="species-pct">4%</div>
         </div>
       </div>
     </div>
@@ -1175,6 +1260,95 @@
         <div style="position:relative;height:220px;">
           <canvas id="chartRecuperacion" role="img" aria-label="Indicadores de recuperación del suelo por mes">Cobertura vegetal, retención de metales y estabilización por mes.</canvas>
         </div>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:16px;">
+      <div class="panel-title"><i class="ti ti-plant-2"></i> Catálogo de especies nativas</div>
+      <div style="overflow-x:auto;">
+        <table class="species-table">
+          <thead>
+            <tr>
+              <th>Especie</th>
+              <th>Altura</th>
+              <th>Consumo hídrico</th>
+              <th>Tolerancia pH</th>
+              <th>Ventajas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="species-sci">Prosopis tamarugo</span><span class="species-common">Tamarugo</span></td>
+              <td>10–18 m</td>
+              <td><span class="consumo-pill consumo-muybajo">Muy bajo</span></td>
+              <td><span class="ph-pill">7–9</span></td>
+              <td>Raíces profundas, extremadamente resistente a sequía y salinidad.</td>
+            </tr>
+            <tr>
+              <td><span class="species-sci">Prosopis chilensis</span><span class="species-common">Algarrobo chileno</span></td>
+              <td>8–15 m</td>
+              <td><span class="consumo-pill consumo-bajo">Bajo</span></td>
+              <td><span class="ph-pill">6.5–8.5</span></td>
+              <td>Fija nitrógeno y mejora el suelo.</td>
+            </tr>
+            <tr>
+              <td><span class="species-sci">Geoffroea decorticans</span><span class="species-common">Chañar</span></td>
+              <td>5–10 m</td>
+              <td><span class="consumo-pill consumo-muybajo">Muy bajo</span></td>
+              <td><span class="ph-pill">6–9</span></td>
+              <td>Excelente adaptación al desierto y a suelos degradados.</td>
+            </tr>
+            <tr>
+              <td><span class="species-sci">Acacia saligna</span></td>
+              <td>5–10 m</td>
+              <td><span class="consumo-pill consumo-bajo">Bajo</span></td>
+              <td><span class="ph-pill">5.5–8.5</span></td>
+              <td>Crecimiento rápido y alta producción de biomasa.</td>
+            </tr>
+            <tr>
+              <td><span class="species-sci">Atriplex nummularia</span></td>
+              <td>3–5 m</td>
+              <td><span class="consumo-pill consumo-muybajo">Muy bajo</span></td>
+              <td><span class="ph-pill">6–10</span></td>
+              <td>Gran tolerancia a salinidad y metales pesados.</td>
+            </tr>
+            <tr>
+              <td><span class="species-sci">Schinus molle</span><span class="species-common">Pimiento</span></td>
+              <td>10–15 m</td>
+              <td><span class="consumo-pill consumo-bajo">Bajo</span></td>
+              <td><span class="ph-pill">6–8.5</span></td>
+              <td>Muy resistente a sequía y erosión.</td>
+            </tr>
+            <tr>
+              <td><span class="species-sci">Eucalyptus camaldulensis</span></td>
+              <td>20–35 m</td>
+              <td><span class="consumo-pill consumo-medio">Medio-bajo</span></td>
+              <td><span class="ph-pill">5.5–8</span></td>
+              <td>Crecimiento rápido, aunque requiere más agua que las especies nativas.</td>
+            </tr>
+            <tr>
+              <td><span class="species-sci">Casuarina equisetifolia</span></td>
+              <td>15–30 m</td>
+              <td><span class="consumo-pill consumo-bajo">Bajo</span></td>
+              <td><span class="ph-pill">5–8.5</span></td>
+              <td>Tolera ambientes salinos y pobres en nutrientes.</td>
+            </tr>
+            <tr>
+              <td><span class="species-sci">Tessaria absinthioides</span><span class="species-common">Brea</span></td>
+              <td>3–6 m</td>
+              <td><span class="consumo-pill consumo-muybajo">Muy bajo</span></td>
+              <td><span class="ph-pill">6–9</span></td>
+              <td>Muy utilizada en restauración de zonas áridas.</td>
+            </tr>
+            <tr>
+              <td><span class="species-sci">Baccharis linearis</span><span class="species-common">Romerillo</span></td>
+              <td>2–4 m</td>
+              <td><span class="consumo-pill consumo-muybajo">Muy bajo</span></td>
+              <td><span class="ph-pill">6–8.5</span></td>
+              <td>Colonizadora de suelos degradados y resistente a metales.</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
 
